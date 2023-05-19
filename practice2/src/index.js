@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
 
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
-      <CommentList />
+      <NotificationList />
     </React.StrictMode>,
     document.getElementById('root')
   );
