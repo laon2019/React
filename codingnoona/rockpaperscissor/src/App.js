@@ -26,7 +26,7 @@ function App() {
     setUserSlect(choice[userChoice])
     let computerChoice = randomChoice();
     setComputerSelcet(computerChoice);
-    console.log(judgement(choice[userChoice], computerChoice))
+    // console.log(judgement(choice[userChoice], computerChoice))
     setResult(judgement(choice[userChoice], computerChoice))
     // setComputerResult(computerJudgement(judgement(choice[userChoice], computerChoice)))
   }
